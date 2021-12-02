@@ -1,0 +1,46 @@
+:root {
+    /*========== VARIABLES CSS ==========*/
+    --first-color: hsl(232, 54%, 43%);
+    --text-color: hsl(232, 8%, 35%);
+    --white-color: hsl(232, 100%, 99%);
+    --body-color: hsl(232, 45%, 90%);
+    --container-color: hsl(232, 54%, 11%);
+}
+
+    /*========== INPUT PASSWORD ==========*/
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--body-color);
+    color: var(--container-color);
+}
+
+.input {
+    margin-bottom: 14rem;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 1.35rem 1.25rem;
+    border-radius:  10px;
+    color: white;
+}
+
+input{
+    background: transparent;
+    color: white;
+    border: none;
+    border-color: none;
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+}
+
+
